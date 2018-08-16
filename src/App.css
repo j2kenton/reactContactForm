@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 3s linear;
+  height: 15px;
+}
+
+.App-header {
+  background-color: #222222;
+  height: 120px;
+  padding-top: 60px;
+  color: #ffffff;
+}
+
+.App-title {
+  margin-top: 50px;
+  font-size: 1.5em;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(360deg); }
+  to { transform: rotate(0deg); }
+}
+
+.formFields {
+    padding-top: 45px;
+}
+
+.formFields .row {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.formFields .row input {
+    margin-left: 5px;
+}
+
+.is-invalid-input:not(:focus) {
+    /* borrowed from foundation-flex */
+    background-color: rgba(236, 88, 64, 0.1);
+    border-color: #ec5840;
+}
+
+.form-error {
+    margin-left: 5px;
+    /* borrowed from foundation-flex */
+    margin-top: -0.5rem;
+    margin-bottom: 1rem;
+    font-size: 0.75rem;
+    font-weight: bold;
+    color: #ec5840;
+}

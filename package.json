@@ -1,0 +1,22 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@sendgrid/mail": "^6.2.1",
+    "axios": "^0.18.0",
+    "form-serialize": "^0.7.2",
+    "lodash.omit": "^4.5.0",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "react-http-request": "^1.0.4",
+    "react-scripts": "1.1.4",
+    "validator": "^10.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
